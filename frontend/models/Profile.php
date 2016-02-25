@@ -59,7 +59,7 @@ class Profile extends \yii\db\ActiveRecord
             'gender_id' => Yii::t('app', 'Gender ID'),
             'created_at' => Yii::t('app', 'Created At'),
             'updated_at' => Yii::t('app', 'Updated At'),
-];
+
         ];
     }
 
@@ -69,7 +69,7 @@ class Profile extends \yii\db\ActiveRecord
     }
 
     public function getGender()
-{
-return $this->hasOne(Gender::className(), ['id' => 'gender_id']);
-}
+    {
+        return $this->hasOne(Gender::className(), ['id' => 'gender_id']);
+    }
 }

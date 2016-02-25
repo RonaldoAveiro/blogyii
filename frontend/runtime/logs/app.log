@@ -3454,3 +3454,224 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1454431989.767
     'REQUEST_TIME' => 1454431989
 ]
+2016-02-25 05:27:45 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ']'' in C:\xampp\htdocs\blogyii\frontend\models\Profile.php:63
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-02-25 05:27:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'RFYyQk5VbVMcPEQ4OTcnBRxuByYYARQjNhxVLHgyFyM.IlwIKxo7Kw=='
+    'Generator' => [
+        'modelClass' => 'frontend\\models\\Profile'
+        'searchModelClass' => 'frontend\\models\\search\\ProfileSearch'
+        'controllerClass' => 'frontend\\controllers\\ProfileController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'd5a7a2a1f4a82d3e6ef26551014d0f7b0ddf9d5179945079ce1d6b9cba6df8faa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"XjvzwbJVX85dVTyprJgn6gzpztnJeOVx\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-MX,es-ES;q=0.9,es;q=0.7,es-AR;q=0.6,es-CL;q=0.4,en-US;q=0.3,en;q=0.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/blogyii/gii/crud'
+    'HTTP_COOKIE' => '_frontendCsrf=d5a7a2a1f4a82d3e6ef26551014d0f7b0ddf9d5179945079ce1d6b9cba6df8faa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22XjvzwbJVX85dVTyprJgn6gzpztnJeOVx%22%3B%7D'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '556'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Acer\\abFiles\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '60488'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456374464.271
+    'REQUEST_TIME' => 1456374464
+]
+2016-02-25 05:30:24 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+' in C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Connection.php:591
+Stack trace:
+#0 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Connection.php(591): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Connection.php(533): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->open()
+#3 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Connection.php(835): yii\db\Connection->getMasterPdo()
+#4 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Command.php(218): yii\db\Connection->getSlavePdo()
+#5 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Command.php(833): yii\db\Command->prepare('<span class="ke...')
+#6 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Command.php(361): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#8 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('<span class="st...')
+#10 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('<span class="st...')
+#11 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#12 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(153): yii\db\ActiveRecord::primaryKey()
+#13 [internal function]: yii\gii\generators\crud\Generator->validateModelClass('<span class="st...', '<span class="ke...')
+#14 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#15 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\validators\Validator.php(243): yii\validators\InlineValidator->validateAttribute(Object(yii\gii\generators\crud\Generator), '<span class="st...')
+#16 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(yii\gii\generators\crud\Generator), '[<span class="s...')
+#17 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(43): yii\base\Model->validate()
+#18 [internal function]: yii\gii\controllers\DefaultController->actionView('<span class="st...')
+#19 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#20 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#21 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#22 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#23 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 C:\xampp\htdocs\blogyii\index.php(18): yii\base\Application->run()
+#25 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+' in C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Connection.php:538
+Stack trace:
+#0 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->open()
+#1 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Connection.php(835): yii\db\Connection->getMasterPdo()
+#2 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Command.php(218): yii\db\Connection->getSlavePdo()
+#3 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Command.php(833): yii\db\Command->prepare('<span class="ke...')
+#4 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Command.php(361): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#5 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\mysql\Schema.php(198): yii\db\Command->queryAll()
+#6 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\mysql\Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\Schema.php(146): yii\db\mysql\Schema->loadTableSchema('<span class="st...')
+#8 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\ActiveRecord.php(294): yii\db\Schema->getTableSchema('<span class="st...')
+#9 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\db\ActiveRecord.php(317): yii\db\ActiveRecord::getTableSchema()
+#10 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(153): yii\db\ActiveRecord::primaryKey()
+#11 [internal function]: yii\gii\generators\crud\Generator->validateModelClass('<span class="st...', '<span class="ke...')
+#12 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#13 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\validators\Validator.php(243): yii\validators\InlineValidator->validateAttribute(Object(yii\gii\generators\crud\Generator), '<span class="st...')
+#14 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(yii\gii\generators\crud\Generator), '[<span class="s...')
+#15 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(43): yii\base\Model->validate()
+#16 [internal function]: yii\gii\controllers\DefaultController->actionView('<span class="st...')
+#17 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#18 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#19 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#20 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#21 C:\xampp\htdocs\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\xampp\htdocs\blogyii\index.php(18): yii\base\Application->run()
+#23 {main}
+Additional Information:
+
+2016-02-25 05:30:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'VmhkV1dKQ08OAhItICgJGQ5QUTMBHjo/JCIDOWEtOT8sHAodMgUVNw=='
+    'Generator' => [
+        'modelClass' => 'frontend\\models\\Profile'
+        'searchModelClass' => 'frontend\\models\\search\\ProfileSearch'
+        'controllerClass' => 'frontend\\controllers\\ProfileController'
+        'viewPath' => ''
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => 'd5a7a2a1f4a82d3e6ef26551014d0f7b0ddf9d5179945079ce1d6b9cba6df8faa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"XjvzwbJVX85dVTyprJgn6gzpztnJeOVx\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-MX,es-ES;q=0.9,es;q=0.7,es-AR;q=0.6,es-CL;q=0.4,en-US;q=0.3,en;q=0.1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/blogyii/gii/crud'
+    'HTTP_COOKIE' => '_frontendCsrf=d5a7a2a1f4a82d3e6ef26551014d0f7b0ddf9d5179945079ce1d6b9cba6df8faa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22XjvzwbJVX85dVTyprJgn6gzpztnJeOVx%22%3B%7D'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '558'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter;C:\\Program Files (x86)\\Intel\\TXE Components\\TCS\\;C:\\Program Files\\Intel\\TXE Components\\TCS\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Acer\\abFiles\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\;C:\\Program Files\\WIDCOMM\\Bluetooth Software\\syswow64;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\Tools\\Binn\\ManagementStudio\\;C:\\Program Files (x86)\\Microsoft SQL Server\\120\\DTS\\Binn\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.6.3'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/blogyii/index.php'
+    'REMOTE_PORT' => '60507'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1456374621.964
+    'REQUEST_TIME' => 1456374621
+]

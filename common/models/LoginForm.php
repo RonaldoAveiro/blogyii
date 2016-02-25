@@ -3,6 +3,8 @@ namespace common\models;
 
 use Yii;
 use yii\base\Model;
+use yii\web\NotFoundHttpException;
+
 
 /**
  * Login form
@@ -55,8 +57,9 @@ class LoginForm extends Model
      */
     public function login()
     {
-        if ($this->validate()) {
-            return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0);
+        if ($this->validate() && $this->getUser()) {
+            return Yii::$app->user->login($this->getUser(),
+             $this->rememberMe ? 3600 * 24 * 30 : 0);
         } else {
             return false;
         }
@@ -74,5 +77,47 @@ class LoginForm extends Model
         }
 
         return $this->_user;
+
+
     }
+
+    public function actionLogout()
+    {
+        Yii::$app->user->logout();
+        return $this->goHome();
+    }
+
+    public function actionContact()
+    {
+        $model = new ContactForm();
+        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                Yii::$app->session->setFlash('success',
+                    'Thank you for contacting us. We will respond to you as soon as possible.');
+            } 
+            else {
+                Yii::$app->session->setFlash('error', 'There was an error sending email.');
+            }
+            return $this->refresh();
+        } else {
+            return $this->render('contact', [
+                'model' => $model,
+                ]);
+        }
+    }
+
+    public function loginAdmin()
+    {
+        if (($this->validate()) && $this->getUser()->role_id >=
+            ValueHelpers::getRoleValue('Admin')
+            && $this->getUser()->status_id ==
+            ValueHelpers::getStatusValue('Active')) {
+            return Yii::$app->user->login($this->getUser(),
+                $this->rememberMe ? 3600 * 24 * 30 : 0);
+        } else {
+        throw new NotFoundHttpException('You Shall Not Pass.');
+    }
+}
+
+
 }
